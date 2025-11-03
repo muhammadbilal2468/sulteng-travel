@@ -27,13 +27,13 @@ export default function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-start p-4 bg-green-50 rounded-lg hover:bg-green-100 transition duration-300">
-                <FaWhatsapp className="text-green-500 text-2xl mr-4 mt-1 flex-shrink-0" />
+                <FaWhatsapp className="text-green-500 text-2xl mr-4 mt-1 shrink-0" />
                 <div>
                   <h3 className="font-semibold text-lg text-gray-800">
                     WhatsApp
                   </h3>
                   <p className="text-gray-600 text-lg font-medium">
-                    +62 812-3456-7890
+                    +62 823 3717 5785
                   </p>
                   <p className="text-sm text-gray-500 mt-1">
                     Fast Response - Langsung chat kami
@@ -50,13 +50,13 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition duration-300">
-                <FaPhone className="text-blue-500 text-2xl mr-4 mt-1 flex-shrink-0" />
+                <FaPhone className="text-blue-500 text-2xl mr-4 mt-1 shrink-0" />
                 <div>
                   <h3 className="font-semibold text-lg text-gray-800">
                     Telepon
                   </h3>
                   <p className="text-gray-600 text-lg font-medium">
-                    +62 451-12345
+                    +6282337175785
                   </p>
                   <p className="text-sm text-gray-500 mt-1">
                     Senin - Minggu, 08:00 - 22:00
@@ -71,7 +71,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start p-4 bg-pink-50 rounded-lg hover:bg-pink-100 transition duration-300">
-                <FaInstagram className="text-pink-500 text-2xl mr-4 mt-1 flex-shrink-0" />
+                <FaInstagram className="text-pink-500 text-2xl mr-4 mt-1 shrink-0" />
                 <div>
                   <h3 className="font-semibold text-lg text-gray-800">
                     Instagram
@@ -94,7 +94,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start p-4 bg-red-50 rounded-lg hover:bg-red-100 transition duration-300">
-                <FaEnvelope className="text-red-500 text-2xl mr-4 mt-1 flex-shrink-0" />
+                <FaEnvelope className="text-red-500 text-2xl mr-4 mt-1 shrink-0" />
                 <div>
                   <h3 className="font-semibold text-lg text-gray-800">Email</h3>
                   <p className="text-gray-600 text-lg font-medium">
@@ -122,7 +122,7 @@ export default function Contact() {
                 Lokasi Kantor
               </h2>
               <div className="flex items-start">
-                <FaMapMarkerAlt className="text-orange-500 text-2xl mr-4 mt-1 flex-shrink-0" />
+                <FaMapMarkerAlt className="text-orange-500 text-2xl mr-4 mt-1 shrink-0" />
                 <div>
                   <h3 className="font-semibold text-lg text-gray-800 mb-2">
                     Alamat Kantor Pusat
@@ -152,7 +152,7 @@ export default function Contact() {
                 Jam Operasional
               </h2>
               <div className="flex items-start">
-                <FaClock className="text-purple-500 text-2xl mr-4 mt-1 flex-shrink-0" />
+                <FaClock className="text-purple-500 text-2xl mr-4 mt-1 shrink-0" />
                 <div className="w-full">
                   <div className="grid grid-cols-1 gap-3">
                     <div className="flex justify-between items-center py-2 border-b border-gray-100">
@@ -181,7 +181,7 @@ export default function Contact() {
             </div>
 
             {/* Quick Actions */}
-            <div className="bg-gradient-to-r from-blue-600 to-red-600 p-6 rounded-xl text-white">
+            <div className="bg-linear-to-r from-blue-600 to-red-600 p-6 rounded-xl text-white">
               <h3 className="text-xl font-bold mb-4">Butuh Bantuan Cepat?</h3>
               <p className="mb-4">
                 Hubungi kami sekarang untuk konsultasi gratis!
